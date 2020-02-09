@@ -174,7 +174,7 @@ section#skill-section .slick-slide {
 
 /* skill section */
 
-/* project section */
+/* project section
 .project-item {
   height: 300px !important;
   object-fit: cover !important;
@@ -191,7 +191,7 @@ a.light-box:focus {
 .slick-dots li button:before {
   font-size: 20px !important;
   color: #5499ff !important;
-}
+} */
 
 /* project section */
 
@@ -237,7 +237,7 @@ footer.footer>.footer-text>span {
 
 svg.svg-inline--fa.fa-heart.fa-w-16 {
   color: red !important;
-  animation: heart 500ms linear infinite;
+  animation: heart 1s linear infinite;
 }
 
 @keyframes heart {
@@ -246,7 +246,7 @@ svg.svg-inline--fa.fa-heart.fa-w-16 {
   }
 
   to {
-    transform: scale(1.5);
+    transform: scale(1.3);
   }
 }
 

@@ -13,7 +13,8 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"> -->
 
   <title>Ricky Damar Saputra | Profile</title>
 </head>
@@ -33,7 +34,6 @@
           <a class="nav-item nav-link home" href="#">Home</a>
           <a class="nav-item nav-link about" href="#about-section">MyAbout</a>
           <a class="nav-item nav-link skill" href="#skill-section">MySkills</a>
-          <a class="nav-item nav-link work" href="#work-section">MyWorks</a>
           <a class="nav-item nav-link contact" href="#contact-section">MyContact</a>
         </div>
       </div>
@@ -44,7 +44,7 @@
   <!-- hero section -->
   <section class="hero-section" id="hero-section">
     <div class="container">
-      <h1 class="title title-border-left">If You Want Junior <span>WebDeveloper</span>,<br>
+      <h1 class="title title-border-left" data-aos="fade-right">If You Want Junior <span>WebDeveloper</span>,<br>
         I Am Your Solution.</h1>
       <div class="row">
         <div class="col-lg-7">
@@ -56,7 +56,7 @@
       <div class="row text-center">
         <div class="col-lg">
           <a href="#about-section">
-            <img src="img/icons/arrow-down.png" class="arrow-down">
+            <img src="img/icons/arrow-down.png" class="arrow-down" data-aos="fade-down">
           </a>
         </div>
       </div>
@@ -67,7 +67,7 @@
   <!-- about section -->
   <section class="about-section" id="about-section">
     <div class="container">
-      <h1 class="title title-border-right text-right">My Introduction</h1>
+      <h1 class="title title-border-right text-right" data-aos="fade-left">My Introduction</h1>
       <div class="row">
         <div class="col-lg">
           <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ea iure corrupti rem
@@ -75,7 +75,7 @@
             error? Nulla quam at consequatur voluptate non rem? Neque, iusto nulla quam numquam minima illum ducimus
             impedit eaque qui, quidem 30
             architecto maxime ab?</p>
-          <a href="#work-section" class="see-my-works">See MyWorks</a>
+          <a href="#contact-section" class="see-my-works">Contact Me</a>
         </div>
       </div>
     </div>
@@ -85,7 +85,7 @@
   <!-- skill section -->
   <section class="skill-section" id="skill-section">
     <div class="container">
-      <h1 class="title title-border-left">Skills That I Have</h1>
+      <h1 class="title title-border-left" data-aos="fade-right">Skills That I Have</h1>
       <div class="row justify-content-center">
         <div class="col-lg-11">
           <div class="skill-carousel">
@@ -131,52 +131,23 @@
   </section>
   <!-- skill section -->
 
-  <!-- work section -->
-  <section class="work-section" id="work-section">
-    <div class="container">
-      <h1 class="title title-border-right text-right">My Projects</h1>
-      <div class="row justify-content-center">
-        <div class="col-lg-10">
-          <div class="project-carousel">
-            <a href="img/projects/regalindo.JPG" class="light-box">
-              <img src="img/projects/regalindo.JPG" class="project-item">
-            </a>
-            <a href="img/projects/regalindo.JPG" class="light-box">
-              <img src="img/projects/regalindo.JPG" class="project-item">
-            </a>
-            <a href="img/projects/regalindo.JPG" class="light-box">
-              <img src="img/projects/regalindo.JPG" class="project-item">
-            </a>
-            <a href="img/projects/regalindo.JPG" class="light-box">
-              <img src="img/projects/regalindo.JPG" class="project-item">
-            </a>
-            <a href="img/projects/regalindo.JPG" class="light-box">
-              <img src="img/projects/regalindo.JPG" class="project-item">
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- work section -->
-
   <!-- contact section -->
   <section class="contact-section" id="contact-section">
     <div class="container">
-      <h1 class="title title-border-left">My Introduction</h1>
-      <div class="row">
+      <h1 class="title title-border-right text-right" data-aos="fade-left">My Personal Contact</h1>
+      <div class="row text-right">
         <div class="col-lg">
           <div class="contact-item">
-            <h3 class="contact-title">Gmail</h3>
-            <h5 class="contact-subtitle">retrocode.rc@gmail.com</h5>
+            <h3 class="contact-title" data-aos="zoom-in">Gmail</h3>
+            <h5 class="contact-subtitle" data-aos="zoom-in">retrocode.rc@gmail.com</h5>
           </div>
           <div class="contact-item">
-            <h3 class="contact-title">GitHub</h3>
-            <h5 class="contact-subtitle">https://github.com/rickydamarsaputra</h5>
+            <h3 class="contact-title" data-aos="zoom-in">GitHub</h3>
+            <h5 class="contact-subtitle" data-aos="zoom-in">https://github.com/rickydamarsaputra</h5>
           </div>
           <div class="contact-item">
-            <h3 class="contact-title">My Contact Phone</h3>
-            <h5 class="contact-subtitle">+62 895 7003 21925</h5>
+            <h3 class="contact-title" data-aos="zoom-in">My Contact Phone</h3>
+            <h5 class="contact-subtitle" data-aos="zoom-in">+62 895 7003 21925</h5>
           </div>
         </div>
       </div>
@@ -205,7 +176,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.0/smooth-scroll.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script> -->
   <script src="js/main.js"></script>
 </body>
 

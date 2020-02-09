@@ -1,4 +1,7 @@
 $(document).ready(function () {
+  AOS.init({
+    duration: 1500
+  });
 
   $('.skill-carousel').slick({
     slidesToShow: 2,
@@ -13,14 +16,6 @@ $(document).ready(function () {
       }
     ]
   });
-
-  $('.project-carousel').slick({
-    dots: true,
-    arrows: false,
-    slidesToShow: 1
-  });
-
-  $('.light-box').fancybox();
 
   $(window).scroll(function () {
     if ($(document).scrollTop() > 50) {
@@ -51,12 +46,6 @@ $(document).ready(function () {
     $('.skill').addClass('on-click')
     $('.nav-item').removeClass('on-click')
     $('.skill').addClass('on-click')
-  })
-
-  $('.work').on('click', function () {
-    $('.work').addClass('on-click')
-    $('.nav-item').removeClass('on-click')
-    $('.work').addClass('on-click')
   })
 
   $('.contact').on('click', function () {
